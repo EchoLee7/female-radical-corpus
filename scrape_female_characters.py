@@ -29,7 +29,7 @@ for char_link in soup.find_all("a"):
     if len(char) == 1:  # 只保留单个汉字
         characters.append(char)
 
-print(f"✅ 找到 {len(characters)} 个含‘女’部首的汉字：{characters}")
+print(f" 找到 {len(characters)} 个含‘女’部首的汉字：{characters}")
 
 # 2️⃣ **遍历汉字，获取拼音、释义**
 for char in characters:
