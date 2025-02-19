@@ -12,4 +12,4 @@ data = [
 with open("female_radical_corpus.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 
-print("✅ JSON 文件已创建！")
+print("created")
