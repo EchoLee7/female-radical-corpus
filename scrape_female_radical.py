@@ -20,7 +20,7 @@ data = []
 for char in characters:
     url = BASE_URL + char
     response = requests.get(url)
-    time.sleep(1)  # 避免请求过快被封
+    time.sleep(1)  
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, "lxml")
 
